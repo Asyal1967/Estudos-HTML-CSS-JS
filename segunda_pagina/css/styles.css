@@ -5,3 +5,27 @@ h3 {
 ul li { 
     color:red;
 }
+
+/* Classes */
+.paragraph{
+    background-color: red;
+    color: blue;
+    padding: 5px;
+}
+#Unico{
+    background-color: blueviolet;
+    color: white;
+    padding: 6px;
+}
+    /* Ordem das regras do css*/
+    h2{ 
+        border-bottom: 2px solid red;
+    }
+    .titulo {
+        border-bottom: 3px solid purple;
+    }
+    #algum-titulo{
+        border-bottom: 4px solid black;
+    }
+
+
