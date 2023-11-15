@@ -26,7 +26,150 @@
 
 /*Background-color*/
 
-.background{
+.background {
   color:#fff;
   background-color:black;
 }
+
+/* Background Opacity*/
+
+.opc-bg {
+background-color: #9ff6;
+opacity: 0.2;
+}
+
+.opc-bg-2 {
+  background-color: #9ff6;
+  opacity: 0.4;
+  }
+
+  .opc-bg-3 {
+    background-color: #9ff6;
+    opacity: 0.8;
+    }
+
+    /* RGBA com Opacity*/
+
+    .rgba-opacity {
+      background-color: rgba(0, 255, 0, 0.3);
+      color:#00a; 
+    }
+
+    .bg-image{
+      background-image: url("../primeira_pagina/img/nature.jpg");
+      color: #fff;
+      padding: 5px;
+    }
+
+    .bg-image-2{
+      background-image: url("../primeira_pagina/img/nature.jpg");
+      color: #fff;
+      padding: 10px;
+    }
+
+
+      .bg-image-3{
+        background-image: url("../primeira_pagina/img/nature.jpg");
+        color: #fff;
+        padding: 20px;
+      }
+
+      /*Centralizando o background*/
+
+      .centerd-bg,
+      .not-centerd-bg {
+        height: 400px;
+        width: 400px;
+        background-image: url(../primeira_pagina/img/bridge.jpg);
+
+      }
+
+      .centerd-bg{
+        background-position: center;
+        background-size: cover;
+      }
+
+      /* Altura e largura/ Height and Width*/
+
+      .height-width{
+        height: 40px;
+        width:  300px;
+        background-image: url("../primeira_pagina/img/nature.jpg");
+      }
+
+      /* Padding*/
+
+      .withouth-padding,
+        .with-padding {
+        background-color: #0b0035;
+        color: #fff;
+      }
+
+      .with-padding {
+        padding: 2px;
+        background-color: #0b0;
+      }
+
+      /* Padding individual*/
+
+      .padding-individual {
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        background-image: url("img/nature.jpg");
+        color: #fff;
+      }
+
+      /*Shorthand properties*/
+
+      .shorthand-p {
+        background-color: #ff0000;
+        padding: 10px 20px 5px 15px;
+      }
+
+      .shorthand-p-2 {
+        background-color: #04ff00;
+        padding: 20px 5px;
+      }
+
+      /*Padding com width*/
+
+      .without-border-box {
+        background-color: #ff0000;
+        color: #000;
+        padding: 50px;
+        width: 400px;
+      }
+
+      .border-box {
+        background-color: #ff0;
+        color: #000;
+        padding: 50px;
+        width: 400px;
+        box-sizing: border-box;
+      }
+
+      /* Border*/
+
+      .border {
+        border: 10px solid red;
+        padding: 3px;
+      }
+
+      .border-2 {
+        border: 2px dotted #f0a;
+        padding: 2px;
+      }
+
+      /*Bordas com lados individuais*/
+
+      .border-ind-bottom {
+        border-bottom: solid red;
+        padding: 2px;
+      }
+
+      .border-ind-left {
+        border-left: double rgb(51, 0, 255);
+        padding: 2px;
+      }
