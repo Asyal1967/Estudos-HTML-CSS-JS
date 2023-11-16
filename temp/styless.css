@@ -1,0 +1,141 @@
+.arredondamento {
+    background-color: #ff3b99;
+    border-bottom: solid blue;
+    padding: 3px;
+    color: black;
+    border-radius: 10px;
+}
+
+.arredondamento-2 {
+    background-color: #723bff;
+    border-bottom: solid rgb(255, 0, 0);
+    padding: 3px;
+    color: black;
+    border-radius: 3px;
+}
+
+.margem {
+   margin: 10px;
+   background-color: blue;
+}
+
+.margem-top {
+    margin-top: 20px;    
+    background-color: red;
+    padding: 8px;
+}
+
+.margem-shorthand {
+    margin: 10px 20px;
+    background-color: #723bff;
+    padding: 15px;
+
+}
+
+/* Box model*/
+
+.box-model {
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 250px;
+    border: solid red;
+    border-radius: 30px;
+}
+
+/* Alinhamento de texto*/
+
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    border: solid red;
+    width: 200px;
+    border-radius:30px;
+    padding: 8px;
+}
+
+/*Text decoration*/
+
+.underline {
+   text-decoration: underline;
+}
+
+.line-through {
+   text-decoration: line-through;
+}
+
+.sem-underline {
+   text-decoration: none;
+}
+
+/*text transformation*/
+
+.upper {
+   text-transform: uppercase;
+}
+
+.lower {
+   text-transform: lowercase;
+}
+
+/* Espacamento de letras*/
+
+.spacing {
+    letter-spacing: 10px;
+}
+
+/*Fontes*/
+
+.fonts {
+    font-family: fantasy;
+
+}
+
+.fonts-2 {
+    font-family: sans-serif;
+}
+
+.fonts-3 {
+    font-family: monospace;
+}
+
+.fonts-4 {
+    font-family: cursive;
+}
+
+.fonts-5 {
+    font-family: serif;
+}
+
+/*Estilo de fonte*/
+
+.font-style {
+    font-style: italic;
+}
+
+.font-style-2 {
+    font-style: oblique;
+}
+
+/*Font-weight*/
+
+.thin, .bold, .bolder {
+    font-family: sans-serif;
+}
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/*Font-size*/
+

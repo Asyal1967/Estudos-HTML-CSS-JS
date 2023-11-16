@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <!-- Head e o cabecalho que nao e exibido na pagina web e tem a funcao de conter os metadados-->
   <head>
     <!-- exemplo de Metadados contidos no head -->
     <title>HTML fundamentos</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/list.css">
   </head>
+
+  <!-- O body e o corpo do head e nele sao contidos elementos,atributos e tags que sao exibidos na pagina web-->
   <body>
+  
     <!-- exemplo de tags HTML -->
-    <h1>Um titulo</h1>
+    <h1>Um titulo</h1> <!-- titulo da pagina web, normalmente usado um por pagina-->
     <h3>titulo do paragrafo</h3>
     <p>Um paragrafo</p>
     <!-- exemplo de atributos -->
-    <a href="google.com">site do google </a>
+    <a href="http://google.com">site do google </a> <!-- -->
     <img src="img/nature.jpg" />
     <img src="img/city.jpg" alt="Cidade do azul e roxo" />
 
-    <!-- Lista não ordenada -->
+    <!-- Lista não ordenada, sem numeracao automatica -->
     <ul>
         <li>Item um da lista </li>
         <li>Item dois da lista</li>
         <li>Item tres da lista </li>
     </ul>
 
-    <ul>
+     <!-- Lista ordenada, com numeracao automatica -->
+    <ol>
       <li>sasuke </li>
       <li>naruto</li>
       <li>sakura</li>
-  </ul>
+  </ol>
+
+     <!-- Tabela-->  
     <table> 
         <tr> 
             <th>ID:</th>
@@ -38,24 +45,121 @@
         <td>Asyal</td>
         <td>Programadora</td>
     </table>
+
+<!-- Div e uma tag para criar sessoes na pagina web, como agrupamentos que ficam dividos por blocos -->
 <div> 
     <h2>Titulo da seção</h2>
     <p>Descrição da seção</p>
-    <a href="google.com"> Saiba mais</a>
+    <a href="https://google.com" target="blank">Saiba mais</a>
 </div>
+
 <!-- Classes -->
 <p class="paragraph"> Datte bayo texto</p>
 <p class="paragraph"> Datte bayo texto 2</p>
 <p class="paragraph"> Datte bayo texto 3</p>
 
-<!-- ID -->
+<!-- ID. Quando queremos afetar um unico elemento para torna-lo unico. OBS: NAO repetir um  mesmo id por pagina -->
 <h1 id="Unico"> Este id é exclusivo e só existe 1</h1>
 
 <!-- Ordem dos seletores-->
 <h2 id="algum-titulo" class= "titulo">Sasuke 1</h2>
 <h2 class="titulo"> Sasuke 2</h2>
-<h2 class="titulo"> Sasuke 3</h2>
-<h2 class="titulo"> Sasuke 4</h2>
 <h2>Sasuke 5</h2>
+<!-- nome de cor -->
+ <p class="color-name"> um texto para nome de cores</p>
+
+ <!--Hexadecimal/HEX. Sao cores que possuem ate 6 digitos precedidos de uma #-->
+ <p class="hex">cor usando hex</p>
+ <p class="simple-hex">hex simplificado</p> <!-- hex simplificado, quando os mesmo valores se repetem 6 vezes eles podem ser escritos de forma mais simples. ExÇ #FFFFFF= #FFF ou #112233 = #123-->
+ <p class="simple-hex-2">hex simplificado-2</p>
+
+ <!-- RGB, ou red, blue,green. e inserida a intensidade de cada um com valores de 0 a 255, sendo 0 mais escuro e 255 mais claro-->
+ <p class="RGB">Modificado por rgb</p>
+ <p class="RGB-2">Modificado por rgb-2</p>
+ <p class="RGB-3">Modificado por rgb-3</p>
+ 
+<!-- RGBA -->
+<p class="rgba">Estilizado por RGBA</p>
+<p class="rgba-2">Estilizado por RGBA</p>
+<p class="rgba-3">Estilizado por RGBA</p>
+
+<!-- HSL-->
+<p class="hsl">Estilizado por HSL</p>
+<p class="hsl-2">Estilizado por HSL-2</p>
+<p class="hsl-3">Estilizado por HSL-3</p>
+
+<p class="background">Coloque uma cor de fundo</p>
+<p class="background-2">Coloque uma cor de fundo-2</p>
+<p class="background-3">Coloque uma cor de fundo-3</p>
+
+<!-- Opacidaded no background-->
+
+<div class="opc-bg">
+<p> Alterando opc </p>
+</div>
+
+<div class="opc-bg-2">
+  <p> Alterando opc-2 </p>
+  </div>
+
+  <div class="opc-bg-3">
+    <p> Alterando opc-3 </p>
+    </div>
+
+    <div class="rgba-opacity">
+      <h1>Preciso ser visto</h1>
+    </div>
+    
+    <!-- Background com imagem-->
+
+    <h1 class="bg-image"> Aqui tem imagem no bg</h1>
+    <h2 class="bg-image-2"> Aqui tem imagem no bg-2</h2>
+    <h2 class="bg-image-3"> Aqui tem imagem no bg-3</h2>
+
+    <!--Centralizando o Background-->
+
+    <div class="centerd-bg"></div>
+    <div class="not-centerd-bg"></div>
+
+    <!-- Altura e largura/ Height and width-->]
+
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!-- Padding-->
+
+    <div class="withouth-padding"> sem padding</div>
+    <div class="with-padding"> com padding</div>
+
+    <!-- Padding individual-->
+
+    <div class="padding-individual"> diferentes tipos de padding</div>
+
+    <!-- Shorthand properties-->
+
+   <p class="shorthand-p">Alguma coisa aqui</p>
+   <p class="shorthand-p-2">Alguma coisa aqui aqui</p>
+
+   <!--Padding com width-->
+
+   <div class="without-border-box">
+   <p> Alguma coisa </p>
+  </div>
+
+   <div class="border-box">
+   <p> Alguma coisa-2 </p>
+  </div>
+
+  <!--Border-->
+
+  <div class="border">Uma borda</div>
+  <div class="border-2">Uma borda-2</div>
+
+  <!--Bordas com lados individuais-->
+
+  <p class="border-ind-bottom">Borda bottom</p>
+  <p class="border-ind-left">Borda left-2</p>
+  </body>
+</html>
   </body>
 </html>
