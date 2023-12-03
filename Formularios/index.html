@@ -23,6 +23,53 @@
         <input type="text" name="age"/> 
      </div>
 
+     <!--Input Select-->
+     <div>
+     <label for="job"> Selecione sua profissão</label>
+     <select name="job">
+        <option value="Programador"> Programador </option>
+        <option value="Dançarina"> Dançarina </option>
+     </select>
+    </div>
+
+    <!-- Atributo selected-->
+    <div>
+    <label for="contrato"> Aceita os termos do contrato?</label>
+    <select name="contrato">
+        <option value="sim"> Sim</option>
+        <option value="não" selected> Meu nome é ari e não to nem aí</option>
+    </select>
+    </div>
+
+    <!--Multiplas opções-->
+    <div>
+    <label for="itens">Selecione seus itens:</label>
+    <select name="itens" multiple>
+        <option value="amora"> Amora </option>
+        <option value="morango"> Morango </option>
+        <option value="cereja"> Cereja </option>
+    </select>
+    </div>
+    
+    <!--Elemento textarea-->
+    <div>
+        <label for="bio">Escreva abobrinhas aqui:</label>
+        <textarea name="Bio"></textarea>
+    </div>
+
+    <!--Fieldset e legend-->
+    <div>
+    <fieldset>
+        <legend>Coloque seus dados:</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome">
+    </fieldset>
+    </div>
+     <!--Enviando o form-->
+       <br> <input type="submit" value="Enviar">
+
     </form>
 </body>
 </html>
