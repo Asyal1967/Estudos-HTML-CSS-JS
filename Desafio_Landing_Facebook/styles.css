@@ -30,27 +30,3 @@ section div img {
     height: 106px;
     margin: -28px;
 }
-
-.logo h1 {
-    font-size: 24px;
-    line-height: 28px;
-    width: auto;
-    position: relative;
-    left: 20px;
-}
-
-.form {
-    background-color: #fff;
-    margin: 40px 0 0;
-    text-align: center;
-    padding: 10px 0 24px;
-    border: none;
-    border-radius:8px;
-    width: 396px;
-
-}
-
-.inputs {
-    background-color: #fff;
-    border-radius: 5px;
-}
