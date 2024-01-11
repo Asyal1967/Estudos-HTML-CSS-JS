@@ -12,12 +12,11 @@
     <form action="register.php" method="get">
         <div>
             <label> Nome: </label>
-        <input type="text"/>
+        <input type="text">
     </div>
 
      <!--Atributo name-->
      <!--Atributo label-->
-
      <div>
         <label for="age">Idade:</label>
         <input type="text" name="age"/> 
@@ -67,6 +66,110 @@
         <input type="text" name="sobrenome">
     </fieldset>
     </div>
+
+    <!-- Datalist-->
+    <div>
+        <label for="sabores"> Escolha seu sabor:</label>
+        <input type="text" list="sabor" name="sabores">
+
+        <datalist id="sabor">
+            <option value="Pika"></option>
+            <option value="Rola"></option>
+            <option value="CARALHO"></option>
+        </datalist>
+    </div>
+
+    <!--Input para senhas-->
+    <div>
+        <label for="senha"> Coloque sua senha:</label>
+        <input type="password" name="senha">
+    </div>
+
+    <!--Input radio-->
+    <div>
+        <label for="carros"> Escolha seu modelo:</label>
+        <div class="radio">
+            <input type="radio" value="impala_1967" name="carros">
+            <label for="impala_1967"> Impala-1967</label>
+        </div>
+        <div class="radio">
+            <input type="radio" value="lamborghini" name="carros">
+            <label for="lamborghini"> Lamborghini</label>
+        </div>
+    </div>
+
+    <!--Input checkbox-->
+    <div>
+        <label for="tiposDeCigarro"> Selecione um cigarro:</label>
+        <div class="checkbox">
+            <label for="marlboro"> Marlboro</label>
+            <input type="checkbox" value="marlboro" name="tiposDeCigarro[]">
+        </div>
+        <div>
+            <div class="checkbox">
+                <input type="checkbox" value="chesterfield" name="tiposDeCigarro[]">
+                <label for="chesterfield"> chesterfield</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input de data-->
+    <div>
+        <label for="data de nascimento"> Data de nascimento</label>
+        <input type="date">
+    </div>
+
+    <!--Enviando arquivos-->
+    <div>
+        <label for="imagem">AmandaNudes:</label>
+        <input type="file" name="imagem">
+    </div>
+
+    <!--Input numeros-->
+    <div>
+        <label for="salario">Quanto voce ganha?</label>
+        <input type="number" name="salario">
+    </div>
+
+    <!--Input email-->
+    <div>
+        <label for="email">Coloca o krl do email:</label>
+        <input type="email" name="email">
+    </div>
+
+    <!--Atributo value-->
+    <div>
+        <label for="valor">Digite o valor do seu cu:</label>
+        <input type="text" value="vale mil reais" name="valor">
+    </div>
+
+    <!--Atributo Disable-->
+    <div>
+        <p> tente mudar esse carai:</p>
+        <input type="text" value="não digita nada nessa poha" disabled>
+    </div>
+
+    <!--Placeholder-->
+    <div>
+        <label for="profissao"> coloque sua profissao</label>
+        <input type="text" name="profissao" placeholder="Coloca sua profissao caralho">
+    </div>
+
+    <!--Atributo required-->
+    <div>
+        <label for="uns dados ai"> Escolha qualquer merda:</label>
+        <input type="text" list="merda" name="uns dados ai" required>
+
+        <datalist id="merda">
+        <option value="merda de dinossauro"></option>
+        <option value="merda de cachorro"></option>
+        <option value="merda de elefante"></option>
+        </datalist>
+    </div>
+    <!--Input reset form-->
+    <input type="reset" value="limpar">
+    <br>
+
      <!--Enviando o form-->
        <br> <input type="submit" value="Enviar">
 
