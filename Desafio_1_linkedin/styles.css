@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000;
+}
+
+header {
+  background-color: #1b2226;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+input[type="text"] {
+  width: 280px;
+  height: 34px;
+  flex-shrink: 0;
+  text-align: 50px;
+}
+
+.links a {
+  color: #70b5f9;
+}
+
+.bio {
+  background-color: #1b2226;
+  width: 780px;
+  height: 238px;
+  flex-shrink: 0;
+}
+
+.lupa {
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 7px;
+}
