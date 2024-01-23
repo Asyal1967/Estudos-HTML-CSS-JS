@@ -94,11 +94,13 @@ h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 72px;
     padding-bottom: 3rem;
+    color: #1ec11e;
 }
 
 p,
 button {
     font-family: 'Inter', sans-serif;
+    color: #1ec11e;
 }
 
 .texto__paragrafo {
