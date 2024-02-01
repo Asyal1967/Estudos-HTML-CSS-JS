@@ -31,3 +31,11 @@ Operador	Nome	Exemplo	Resultado
 &&	E / AND	(A > B) && (B == C)	Verdadeiro se A fo maior que B E B for igual a C
 ǀǀ	OU / OR	(A > B) ǀǀ (B == C)	Verdadeiro se A for maior que B OU B for igual a C
 !	NEGAÇÃO	!(A == B)	Verdadeiro se A NÃO for igual a B
+
+//Tipo de Função	Exemplo de Código	Uso
+Sem retorno e sem parâmetro	function saudacao() { ... }	Execução de bloco de código simples.
+Sem retorno e com parâmetro	function cumprimentar(nome) { ... }	Execução de bloco de código com argumentos.
+Com retorno e sem parâmetro	function gerarNumeroAleatorio() { ... }	Cálculo e retorno de um valor específico.
+Com retorno e com parâmetro	function somar(a, b) { ... }	Cálculo e retorno baseado em argumentos.
+Função anônima	let saudacao = function() { ... };	Definição de função sem nome localmente.
+Arrow function	let quadrado = x => x * x;	Definição concisa de funções curtas.
