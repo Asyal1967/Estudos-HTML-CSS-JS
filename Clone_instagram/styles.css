@@ -1,3 +1,8 @@
+:root {
+    --Cor-principal: #fff;
+} /*Variavel no CSS*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +43,7 @@ body {
 
 /*Login form*/
 #form-box {
-    background-color: #fff;
+    background-color: var(--Cor-principal);
     border: solid 1px #dbdbdb;
     width: 350px;
     margin-top: 30px;

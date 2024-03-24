@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Decodificador</title>
+  </head>
+  <body>
+
+    <header class="logo">
+      <img src="img/Logo da Alura.png" alt="logo_alura" />
+    </header>
+
+    <main>
+      <section class="mensagem_inicial">
+        <textarea
+          name="Txt_area"
+          id="local_do_txt"
+          placeholder="Digite sua mensagem"
+        ></textarea>
+      </section>
+
+      <section class="botoes">
+        <p>Apenas letras minusculas e sem acento</p>
+
+        <button onclick="criptografarTexto()">Criptografar</button>
+        <button>Descriptograr</button>
+
+      </section>
+    </main>
+
+    <aside>
+      <textarea name="mensagem-pronta" id="txt-final">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, nisi. Voluptates, unde suscipit, maiores itaque enim ad laborum provident nam veniam hic illum fugit delectus quam. Nemo culpa nesciunt voluptate?</textarea
+      >
+      <button>Copiar</button>
+    </aside>
+
+    <footer> @Feito por Laysa Numaire</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
